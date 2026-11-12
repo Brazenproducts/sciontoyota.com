@@ -34,6 +34,8 @@ figure img{border-radius:12px;border:1px solid var(--line);width:100%;object-fit
    height cap trims empty sky up top, never the vehicle's wheels/body at the bottom. */
 main.wrap-narrow section:first-of-type figure img{max-height:68vh;object-fit:cover;object-position:center bottom}
 figcaption{color:#7f8795;font-size:.78rem;margin-top:.5rem;text-align:center}
+.photo-credit{color:#6b7280;font-size:.72rem;text-align:center;margin:.3rem 0 1.4rem;font-style:italic}
+.gallery + .photo-credit{margin-top:-.6rem}
 .vehicles{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.3rem;margin-top:1.4rem}
 .vcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
 .vcard .ph{height:180px;background-size:cover;background-position:center}
