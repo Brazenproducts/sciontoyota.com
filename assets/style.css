@@ -30,6 +30,8 @@ p{margin-bottom:1rem;color:#e7e9ee}
 .lead{font-size:1.12rem;color:var(--text)}
 figure{margin:1.4rem 0}
 figure img{border-radius:12px;border:1px solid var(--line);width:100%;object-fit:cover}
+/* Keep lead/hero vehicle photos fully visible without cropping or overflowing the fold */
+main.wrap-narrow section:first-of-type figure img{max-height:62vh;object-fit:contain;background:#000}
 figcaption{color:#7f8795;font-size:.78rem;margin-top:.5rem;text-align:center}
 .vehicles{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.3rem;margin-top:1.4rem}
 .vcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
