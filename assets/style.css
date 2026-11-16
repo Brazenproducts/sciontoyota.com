@@ -38,7 +38,7 @@ figcaption{color:#7f8795;font-size:.78rem;margin-top:.5rem;text-align:center}
 .gallery + .photo-credit{margin-top:-.6rem}
 .vehicles{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.3rem;margin-top:1.4rem}
 .vcard{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
-.vcard .ph{height:180px;background-size:cover;background-position:center}
+.vcard .ph{height:300px;background-size:contain;background-repeat:no-repeat;background-position:center;background-color:#0b0d12}
 .vcard .bd{padding:1.3rem;display:flex;flex-direction:column;flex:1}
 .vcard .tag{font-size:.7rem;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:var(--red);margin-bottom:.35rem}
 .vcard h3{font-size:1.3rem;font-weight:900;margin:0 0 .3rem}
